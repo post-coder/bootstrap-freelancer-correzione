@@ -1,0 +1,19 @@
+.my-nav {
+  background-color: #2c3e50;
+}
+
+.my-green-back {
+  background-color: #1abc9c;
+  color: white;
+}
+
+/* TEST */
+#portfolio .my-col-inner {
+  min-height: 200px;
+  background-color: #ba4b63;
+}
+/* / TEST */
+
+.form-control::placeholder {
+  color: #333333;
+}
