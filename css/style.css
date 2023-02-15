@@ -7,13 +7,46 @@
   color: white;
 }
 
-/* TEST */
-#portfolio .my-col-inner {
-  min-height: 200px;
-  background-color: #ba4b63;
+/* separator */
+.my-separator {
 }
-/* / TEST */
+
+.my-separator .separator-line {
+  width: 10%;
+}
+/* / separator */
+
+
+
+/* /COMMON */
+
 
 .form-control::placeholder {
   color: #333333;
 }
+
+/* profile picture */
+
+.my-profile-pic-container {
+  padding: 0 120px
+}
+
+.my-profile-pic {
+  /* width: 15%; */
+  max-width: 200px;
+}
+/* / profile picture */
+
+
+
+/* footer */
+
+footer .my-upper-footer {
+  
+  background-color: #3a546d;
+}
+
+footer .my-lower-footer {
+
+  background-color: #2c3e50;
+} 

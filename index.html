@@ -22,8 +22,11 @@
       </div>
   
       <div class="nav-right">
+        <div class="my-burger-menu-container border border-light-subtle rounded-1 px-2 d-md-none">
+          <i class="bi bi-list"></i>
+        </div>
         
-        <ul class="list-unstyled d-flex m-0">
+        <ul class="list-unstyled d-md-flex d-none m-0">
           <li class="px-3">Portfolio</li>
           <li class="px-3">About</li>
           <li class="px-3">Contact</li>
@@ -36,29 +39,33 @@
   </nav>
 
 
-  <div id="jumbo" class="container-fluid my-green-back text-center text-uppercase py-5">
+  <section id="jumbo" class="container-fluid my-green-back text-center text-uppercase py-5 mb-4">
 
-    <div class="mb-2">
-      <img src="https://picsum.photos/200">
+    <div class="mb-2 w-md-25 my-profile-pic-container">
+      <img src="img/avatar.svg" class="img-fluid my-profile-pic" alt="profile picture">
     </div>
 
     <h1>Start Bootstrap</h1>
 
-    <div class="my-separator">
-      -
+    <div class="my-separator d-flex justify-content-center align-items-center gap-3 fs-3 mb-3">
+      <div class="separator-line border border-2 border-white rounded-1"></div>
+      <i class="bi bi-star-fill"></i>
+      <div class="separator-line border border-2 border-white rounded-1"></div>
     </div>
 
     <div class="fw-bold">
       Graphic Artist - Web Designer - Illustrator
     </div>
 
-  </div>
+  </section>
 
   <div id="portfolio" class="container text-center">
     <h2>Portfolio</h2>
 
-    <div class="my-separator">
-      -
+    <div class="my-separator d-flex justify-content-center align-items-center gap-3 fs-3 mb-3">
+      <div class="separator-line border border-2 border-dark rounded-1"></div>
+      <i class="bi bi-star-fill"></i>
+      <div class="separator-line border border-2 border-dark rounded-1"></div>
     </div>
 
     <!-- <div class="row text-center g-3 mb-5">
@@ -96,33 +103,33 @@
 
     <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 mb-4">
       <div class="col">
-        <div class="my-col-inner rounded-3">
-          <img src="img/mixdaily.jpeg" class="img-fluid" alt="...">
+        <div class="my-col-inner rounded-3 overflow-hidden">
+          <img src="img/cabin.png" class="img-fluid" alt="...">
         </div>
       </div>
       <div class="col">
-        <div class="my-col-inner rounded-3">
-          col
+        <div class="my-col-inner rounded-3 overflow-hidden">
+          <img src="img/cake.png" class="img-fluid" alt="...">
         </div>
       </div>
       <div class="col">
-        <div class="my-col-inner rounded-3">
-          col
+        <div class="my-col-inner rounded-3 overflow-hidden">
+          <img src="img/circus.png" class="img-fluid" alt="...">
         </div>
       </div>
       <div class="col">
-        <div class="my-col-inner rounded-3">
-          col
+        <div class="my-col-inner rounded-3 overflow-hidden">
+          <img src="img/game.png" class="img-fluid" alt="...">
         </div>
       </div>
       <div class="col">
-        <div class="my-col-inner rounded-3">
-          col
+        <div class="my-col-inner rounded-3 overflow-hidden">
+          <img src="img/safe.png" class="img-fluid" alt="...">
         </div>
       </div>
       <div class="col">
-        <div class="my-col-inner rounded-3">
-          col
+        <div class="my-col-inner rounded-3 overflow-hidden">
+          <img src="img/submarine.png" class="img-fluid" alt="...">
         </div>
       </div>
     </div>
@@ -135,17 +142,19 @@
         About
       </h2>
   
-      <div class="my-separator text-center">
-        -
+      <div class="my-separator d-flex justify-content-center align-items-center gap-3 fs-3 mb-3">
+        <div class="separator-line border border-2 border-white rounded-1"></div>
+        <i class="bi bi-star-fill"></i>
+        <div class="separator-line border border-2 border-white rounded-1"></div>
       </div>
 
       <div class="px-5">
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6 col-12 mb-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus illum recusandae similique, amet quidem, omnis accusantium, expedita corporis impedit voluptates iste neque harum molestiae deserunt ullam perferendis blanditiis repellat quae?
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-12 mb-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus illum recusandae similique, amet quidem, omnis accusantium, expedita corporis impedit voluptates iste neque harum molestiae deserunt ullam perferendis blanditiis repellat quae?
           </div>
         </div>
@@ -168,8 +177,10 @@
       </h2>
 
   
-      <div class="my-separator text-center">
+      <div class="my-separator d-flex justify-content-center align-items-center gap-3 fs-3 mb-3">
+        <div class="separator-line border border-2 border-dark rounded-1"></div>
         <i class="bi bi-star-fill"></i>
+        <div class="separator-line border border-2 border-dark rounded-1"></div>
       </div>
     </div>
 
@@ -200,6 +211,41 @@
       
     </div>
   </div>
+
+
+
+  <!-- footer -->
+
+  <footer class="text-white">
+
+    <div class="my-upper-footer text-center py-3">
+
+      <div class="container">
+        <div class="row row-cols-md-3 row-cols-1">
+          <div class="col py-3">
+            <h4 class="text-uppercase">Location</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum, provident tenetur ratione et similique illum quasi qui, rerum sequi incidunt deserunt reprehenderit quae tempore dignissimos ad quibusdam quas illo?</p>
+          </div>
+
+          <div class="col py-3">
+            <h4 class="text-uppercase">Around The Web</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum, provident tenetur ratione et similique illum quasi qui, rerum sequi incidunt deserunt reprehenderit quae tempore dignissimos ad quibusdam quas illo?</p>
+          </div>
+
+          <div class="col py-3">
+            <h4 class="text-uppercase">Freelancer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum, provident tenetur ratione et similique illum quasi qui, rerum sequi incidunt deserunt reprehenderit quae tempore dignissimos ad quibusdam quas illo?</p>
+          </div>
+        </div>
+      </div>
+     
+
+    </div>
+    <div class="my-lower-footer py-5 text-center">
+      Copyright (c) Gabriel Spanoo
+    </div>
+
+  </footer>
 
 
 
